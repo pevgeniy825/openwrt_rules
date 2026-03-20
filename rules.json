@@ -1,1 +1,12 @@
-1
+[
+  {
+    "name": "whatsup",
+    "network": "tpc,udp",
+    "domains": ["domain:whatsapp.com", "domain:whatsapp.net", "geosite:whatsapp"],
+    "ips": [],
+    "src_ports": "",
+    "dst_ports": "",
+    "invert": false,
+    "proxy": "my_vless_node"
+  }
+]
