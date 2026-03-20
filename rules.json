@@ -1,7 +1,7 @@
 [
   {
     "name": "whatsup",
-    "network": "tpc,udp",
+    "network": "tcp,udp",
     "domains": ["domain:whatsapp.com", "domain:whatsapp.net", "geosite:whatsapp"],
     "ips": [],
     "src_ports": "",
