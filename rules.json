@@ -7,6 +7,6 @@
     "src_ports": "",
     "dst_ports": "",
     "invert": false,
-    "proxy": "my_vless_node"
+    "proxy": "vpn"
   }
 ]
