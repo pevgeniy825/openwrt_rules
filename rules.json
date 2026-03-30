@@ -8,5 +8,17 @@
     "dst_ports": "",
     "invert": false,
     "proxy": "vpn"
+  },
+  {
+    "name": "telegram",
+    "network": "tcp,udp",
+    "domains": ["domain:telegram.org", "domain:telegramusercontent.com", "domain:telegra.ph", "domain:telegram.dog", "domain:t.me", "domain:telegram-cdn.org", "domain:cdn-telegram.org", "domain:tdesktop.com", "domain:telega.one", "domain:telegram.me", "domain:telesco.pe", "geosite:telegram"],
+    "ips": ["149.154.160.0/20", "91.108.4.0/22", "95.161.64.0/20", "91.108.8.0/22", "91.108.12.0/22", "91.108.16.0/22"],
+    "src_ports": "",
+    "dst_ports": "",
+    "invert": false,
+    "proxy": "vpn"
   }
 ]
+
+
