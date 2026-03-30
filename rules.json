@@ -40,7 +40,7 @@
     "proxy": "vpn"
   },
   {
-    "name": "direct_access ",
+    "name": "direct_access",
     "network": "tcp,udp",
     "domains": ["domain:kinopoisk.ru", "domain:googleapis.ru", "geosite:category-ru"],
     "ips": ["geoip:ru"],
