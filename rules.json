@@ -30,7 +30,7 @@
     "proxy": "vpn"
   },
   {
-    "name": "common_resources",
+    "name": "common_bypass",
     "network": "tcp,udp",
     "domains": ["domain:whatismyipaddress.com", "domain:sourceforge.net", "domain:openwrt.org", "domain:whattomine.com", "geosite:rutracker", "geosite:tiktok", "geosite:x", "geosite:twitter", "geosite:instagram", "domain:googleusercontent.com", "geosite:discord", "geosite:netflix", "geosite:openai", "domain:chatgpt.com", "domain:lostfilm.one", "domain:lostfilm.tv", "domain:lostfilm.top", "domain:grok.com", "domain:dnsleaktest.com", "domain:habr.com", "domain:googleapis.com"],
     "ips": [],
