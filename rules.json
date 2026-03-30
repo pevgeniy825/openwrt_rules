@@ -1,5 +1,15 @@
 [
   {
+    "name": "youtube",
+    "network": "tcp,udp",
+    "domains": ["geosite:youtube", "domain:googlevideo.com"],
+    "ips": [],
+    "src_ports": "",
+    "dst_ports": "",
+    "invert": false,
+    "proxy": "vpn"
+  },
+  {
     "name": "whatsup",
     "network": "tcp,udp",
     "domains": ["domain:whatsapp.com", "domain:whatsapp.net", "geosite:whatsapp"],
@@ -16,6 +26,46 @@
     "ips": ["149.154.160.0/20", "91.108.4.0/22", "95.161.64.0/20", "91.108.8.0/22", "91.108.12.0/22", "91.108.16.0/22"],
     "src_ports": "",
     "dst_ports": "",
+    "invert": false,
+    "proxy": "vpn"
+  },
+  {
+    "name": "common_resources",
+    "network": "tcp,udp",
+    "domains": ["domain:whatismyipaddress.com", "domain:sourceforge.net", "domain:openwrt.org", "domain:whattomine.com", "geosite:rutracker", "geosite:tiktok", "geosite:x", "geosite:twitter", "geosite:instagram", "domain:googleusercontent.com", "geosite:discord", "geosite:netflix", "geosite:openai", "domain:chatgpt.com", "domain:lostfilm.one", "domain:lostfilm.tv", "domain:lostfilm.top", "domain:grok.com", "domain:dnsleaktest.com", "domain:habr.com", "domain:googleapis.com"],
+    "ips": [],
+    "src_ports": "",
+    "dst_ports": "",
+    "invert": false,
+    "proxy": "vpn"
+  },
+  {
+    "name": "direct_access ",
+    "network": "tcp,udp",
+    "domains": ["domain:kinopoisk.ru", "domain:googleapis.ru", "geosite:category-ru"],
+    "ips": ["geoip:ru"],
+    "src_ports": "",
+    "dst_ports": "",
+    "invert": false,
+    "proxy": "direct"
+  },
+  {
+    "name": "discord_webrtc",
+    "network": "udp",
+    "domains": [],
+    "ips": [],
+    "src_ports": "",
+    "dst_ports": "50000-65535",
+    "invert": false,
+    "proxy": "vpn"
+  },
+  {
+    "name": "quic",
+    "network": "udp",
+    "domains": [],
+    "ips": [],
+    "src_ports": "",
+    "dst_ports": "443",
     "invert": false,
     "proxy": "vpn"
   }
