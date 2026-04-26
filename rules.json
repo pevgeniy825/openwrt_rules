@@ -7,7 +7,8 @@
 			"domain:origin.com",
 			"domain:tnt-ea.com",
 			"domain:easports.com",
-			"domain:split.io"
+			"domain:split.io",
+			"geosite:origin"
 		],
 		"ips": [],
 		"src_ports": "",
