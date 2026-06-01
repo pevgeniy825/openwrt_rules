@@ -100,8 +100,7 @@
 			"domain:grokipedia.com",
 			"domain:grokusercontent.com",
 			"domain:dnsleaktest.com",
-			"domain:habr.com",
-			"domain:googleapis.com"
+			"domain:habr.com"
 		],
 		"ips": [],
 		"src_ports": "",
