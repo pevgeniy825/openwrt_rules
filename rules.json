@@ -114,7 +114,8 @@
 		"domains": [
 			"domain:kinopoisk.ru",
 			"domain:googleapis.ru",
-			"geosite:category-ru"
+			"regexp:.*\\.ru$"
+        ],
 		],
 		"ips": [
 			"geoip:ru"
@@ -130,7 +131,7 @@
 		"domains": [],
 		"ips": [],
 		"src_ports": "",
-		"dst_ports": "50000-65535",
+		"dst_ports": "19318",
 		"invert": false,
 		"proxy": "vpn"
 	},
